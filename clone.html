@@ -88,8 +88,8 @@
         <div class="login-content">
          <h2>Log in to Twirrer</h2>
          <form class="login-form">
-            <input type="text" placeholder="phone, email, or username">
-            <input type="password" placeholder="password">
+            <input type="text" placeholder="phone, email, or username" class="login-user-info">
+            <input type="password" placeholder="password" class="login-password">
             <div>
                 <button type="button" class="login-form-btn">Log In</button>
                 <input type="checkbox" class="login-form-checkbox" id="check">
@@ -106,9 +106,17 @@
 
     </div>
     <!--end of login-->
-
 </section>
 <!--end of login-page-->
+
+<!--login modal-->
+<div class="login-modal">
+    <i class="fas fa-times"></i>
+    <p>The username and password you entered did not match our records. Please doubtle check and try again.</p>
+
+
+</div>
+<!--end of login modal-->
 <!--feeds page-->
 <section class="feeds-page">
     <!--feeds-nav-->
