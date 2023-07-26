@@ -748,6 +748,10 @@ body {
     opacity: 0;
     visibility: hidden;
 }
+.modal-wrapper-display {
+    opacity: 1;
+    visibility: visible;
+}
 .modal {
     width: 60rem;
     background-color: #fff;
