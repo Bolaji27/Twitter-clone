@@ -55,12 +55,12 @@ if (inputUserInfo.value !== "" && inputPassword.value !== "") {
     feedsPage.style.display ='block';
     mainPage.style.display = 'none';
 } else {
-    goToLoginPage()
+    goToLoginPage();
     loginModal.style.display = 'block';
     
-}
+};
 
-})
+});
 
 //Loginpage
 modalX.addEventListener('click', () => {
